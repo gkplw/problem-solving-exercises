@@ -23,3 +23,9 @@ console.log(result1); // 2
 
 let result2 = countVowels("TECHUP");
 console.log(result2); // 2
+
+// better solution
+// function countVowels(text) {
+//   const vowels = "aeiouAEIOU";
+//   return text.split("").filter(char => vowels.includes(char)).length;
+// }
